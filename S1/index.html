@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="home" id="container1">
+
+        <div class="header" style="height: 767px;">
+
+            <div class="chap">
+
+                <p id="burg">Burgers</p>
+
+                <div class="rast">
+
+                    <img src="img-icons/Isolation_Mode.png" alt="" style="margin-top: 20%; margin-left: 10%;">
+                    <div class="a">ارتباط با ما</div>
+                    <div class="b">منو</div>
+                    <div class="c">خانه</div>
+                    <img src="img-icons/text.png" alt="" style="position: relative;margin-left: -170%;margin-top: 30%;">
+
+                </div>
+
+                <p id="sh">09112345678</p>
+                <img src="img-icons/user.png" alt="" style="position: absolute; margin-top: -33.4%; margin-left: 2%;cursor: pointer;">
+                <img src="img-icons/shopping-cart.png" alt="" style="position: absolute;margin-top: -33.4%; margin-left: 4.6%;cursor: pointer;">
+                <img src="img-icons/Bike Delivery.png" alt="" style="position: absolute;margin-top: -33.4%; margin-left: 7.4% ;cursor: pointer;">
+
+    
+            </div>
+
+            <div class="img">
+
+                <img src="img-icons/qq.png" alt="" style="position: absolute;margin-top: 6%;">
+                <img src="img-burgers/985dd5d26cec4bd08b2b5b5371708090.png" alt="" style="width: 624px; height: auto;">
+                <img src="img-icons/Vector3.png" alt="" style="position: absolute; margin-top: 20%; margin-left: -4%;">
+
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+
+                <img src="img-icons/Off.png" alt="" style="position: absolute; margin-top: -60%; margin-left: -5%;">
+
+            </div>
+
+            <p id="sef">سفارش</p>
+            <div class="psef"></div>
+            
+        </div>
+
+        <div class="rectangle" >
+
+            <img src="/img-icons/text menu.png" alt="" style="position: absolute;margin-left: 26%;margin-top: 1%;">
+            <div class="esm">
+                <span class="be" style="color: #ffffff; background: rgba(247, 132, 40, 1);">برگر</span>
+                <span class="pe" onclick="showPizzas()">پیتزا</span>
+                <span class="so" onclick="showSokhari()">سوخاری</span>
+                <span class="sa" onclick="showSand()">ساندویچ</span>
+                <span class="no" style="margin-left: 17%;" onclick="showDrinks()">نوشیدنی</span>
+                
+
+            </div>
+
+            <div class="shekl">
+
+                <div class="chb" style="color: black;" data-counter-id="1">
+                    <h1 style="color: rgba(254, 157, 38, 1);">دبل چیز برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/675e31d7bd196da31d13f5d49a33c829.png" alt="" id="w" style="width: 200px; height: auto;"> 
+                    <img class="decrease" data-counter-id="36" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="36" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="36" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+                    
+                </div>
+                <div class="vab" data-counter-id="2">
+                    <h1 style="color: rgba(254, 157, 38, 1);">چیزبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/cheseburg.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="35" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="35" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="35" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rab" data-counter-id="3">
+                    <h1 style="color: rgba(254, 157, 38, 1);">همبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/hamburg.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="34" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="34" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="34" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="chp">
+                    <h1 style="color: rgba(254, 157, 38, 1);">ماشروم برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/mumburg.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="33" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="33" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="33" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="vap" data-counter-id="5">
+                    <h1 style="color: rgba(254, 157, 38, 1);">بیکن برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/baikburg.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="32" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="32" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="32" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rap" data-counter-id="6">
+                    <h1 style="color: rgba(254, 157, 38, 1);">سوخاری برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-burgers/soburg.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="31" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="31" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="31" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="comments">
+
+            <img src="/img-icons/Text Comments.png" alt="" style="position: absolute; margin-left: 24%;margin-top: 1%;" >
+
+            <img src="img-burgers/zrf.png" alt="" style="margin-left: 4%; margin-top: 15%;">
+
+            <div class="card">
+                
+                    <img src="img-burgers/henry.png" alt="" style="width: 150px;height: 150px; border-radius: 50%;left: 36%; position: relative; top: 10px;">
+
+                    <h3 style="font-family: Vazirmatn;font-size: 24px;font-weight: 600;line-height: 37.5px;text-align: center; color: rgba(254, 157, 38, 1);">هنری جان</h3>
+
+                    <img src="/img-icons/Component 7.png" alt="" style="position: absolute; margin-top: -15%; cursor: pointer;" >
+                    <img src="/img-icons/Component 6.png" alt="" style="position: absolute;margin-top: -15%;margin-left: 86%; cursor: pointer;">
+
+                    
+                    <p style="text-align: right;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، </p>
+                             
+            </div>
+
+        </div>
+
+        <div class="subcribe">
+
+            <h1 style="font-family: Vazirmatn;font-size: 40px;font-weight: 800;line-height: 63px; position: relative; top: 50px; left: 170px; color: #ffffff;" >عضو شدن در خبرنامه ما</h1>
+
+            <p id="l">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و</p>
+            <p id="l">با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و</p>
+            <p id="l">مجله در ستون و سطرآنچنان که لازم است،</p>
+
+            <img src="/img-icons/Group 36.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 6%;">
+
+            <img src="img-burgers/subburg.png" alt="" style="width: 650px;height: auto; top: -340px; left: 650px ;position: relative;">
+            
+        </div>
+
+        <div class="footer">
+            
+            <img src="img-icons/Isolation_Mode2.png" alt="" style="position: absolute; margin-left: 66%; margin-top: 1%;">
+			<div style="position: absolute;margin-left: 63%;margin-top: 6%;">
+				<p style="margin-right: 3%;">لورم ایپسوم متن ساختگی با تولید سادگی </p>
+				<p style="margin-right: 3%;">نامفهوم از صنعت چاپ، و با استفاده از</p>
+				<p style="margin-right: 3%;">طراحان گرافیک است.</p>
+			</div>
+            <img src="img-icons/Company Loco.png" alt="" style="position: absolute; margin-top: 14%;margin-left: 65%;">
+
+            <img src="img-icons/Opening Restaurant.png" alt="" style="position: absolute; margin-left: 40%;margin-top: 4%;">
+
+            <img src="img-icons/شنبه تا پنجشنبه ساعت 12 ظهر تا 12 شب جمعه ساعت 1 ظهر تا 1 شب.png" alt="" style="position: absolute;margin-left: 46.7%;margin-top: 7%;">
+
+            <img src="img-icons/User Link.png" alt="" style="position: absolute;margin-top: 4%;margin-left: 30%;">
+
+            <img src="img-icons/خانه منو ارتباط با ما.png" alt="" style="position: absolute;margin-top: 7%;margin-left: 32%">
+
+            <img src="img-icons/Contact Us.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 12%;">
+
+            <img src="img-icons/لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است..png" alt="" style="position: absolute;margin-left: 12%;margin-top: 6%;">
+
+            <img src="img-icons/Group 1000001896.png" alt="" style="position: absolute;margin-top: 12%;margin-left: 11.5%;">
+
+        </div>
+    
+    </div>
+
+
+    <!-- ############################################################################# -->
+
+    <div class="home" style="display: none;" id="container2">
+
+        <div class="header" style="height: 767px;">
+
+            <div class="chap">
+
+                <p id="burg">Burgers</p>
+
+                <div class="rast">
+
+                    <img src="img-icons/Isolation_Mode.png" alt="" style="margin-top: 20%; margin-left: 10%;">
+                    <div class="a">ارتباط با ما</div>
+                    <div class="b">منو</div>
+                    <div class="c">خانه</div>
+                    <img src="img-icons/text.png" alt="" style="position: relative;margin-left: -170%;margin-top: 30%;">
+
+                </div>
+
+
+    
+            </div>
+
+            <div class="img">
+
+                <img src="img-icons/qq.png" alt="" style="position: absolute;margin-top: 6%;">
+                <img src="img-pizza/20230730165346_[fpdl.in]_freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-81646_full-PhotoRoom 1.png" alt="" style="width: 624px; height: auto;">
+                <img src="img-icons/Vector3.png" alt="" style="position: absolute; margin-top: 20%; margin-left: -4%;">
+
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+
+                <img src="img-icons/Off.png" alt="" style="position: absolute; margin-top: -60%; margin-left: -5%;">
+
+            </div>
+
+        </div>
+
+        <div class="rectangle" >
+
+            <img src="/img-icons/text menu.png" alt="" style="position: absolute;margin-left: 26%;margin-top: 1%;">
+            <div class="esm">
+                <span class="be" style="color: #ffffff; background: rgba(247, 132, 40, 1);" onclick="showBurgers()">برگر</span>
+                <span class="pe" onclick="showPizzas()">پیتزا</span>
+                <span class="so" onclick="showSokhari()">سوخاری</span>
+                <span class="sa" onclick="showSand()">ساندویچ</span>
+                <span class="no" style="margin-left: 17%;" onclick="showDrinks()">نوشیدنی</span>
+                
+
+            </div>
+
+            <div class="shekl">
+
+                <div class="chb" style="color: black;" data-counter-id="1">
+                    <h1 style="color: rgba(254, 157, 38, 1);">دبل چیز برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/Jalapeno pizza-PhotoRoom.png
+                    " alt="" id="w" style="width: 200px; height: auto;"> 
+                    <img class="decrease" data-counter-id="1" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="1" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="1" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+                </div>
+                <div class="vab" data-counter-id="2">
+                    <h1 style="color: rgba(254, 157, 38, 1);">چیزبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/20230730165417_[fpdl.in]_top-view-mixed-pizza-with-tomato-black-olive-melted-cheese_140725-10787_full-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="2" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="2" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="2" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rab" data-counter-id="3">
+                    <h1 style="color: rgba(254, 157, 38, 1);">همبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/20230730165346_[fpdl.in]_freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-81646_full-PhotoRoom 2.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="3" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="3" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="3" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="chp">
+                    <h1 style="color: rgba(254, 157, 38, 1);">ماشروم برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/20230730165252_[fpdl.in]_fresh-pizza-with-mushrooms-ham-cheese-white-background-copy-space-homemade-with-love-fast-delivery-recipe-menu-top-view_639032-297_full-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="4" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="4" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="4" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="vap" data-counter-id="5">
+                    <h1 style="color: rgba(254, 157, 38, 1);">بیکن برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/20230730165648_[fpdl.in]_delicious-classic-italian-pizza-with-mozzarella_79762-2653_full-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="5" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="5" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="5" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rap" data-counter-id="6">
+                    <h1 style="color: rgba(254, 157, 38, 1);">سوخاری برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-pizza/20230730165013_[fpdl.in]_fresh-pizza-rustic-italian-style-with-jerky-olives-mushrooms-three-kinds-cheese-light-wooden-background_152625-5104_full-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="6" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="6" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="6" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="comments">
+
+            <img src="/img-icons/Text Comments.png" alt="" style="position: absolute; margin-left: 24%;margin-top: 1%;" >
+
+            <img src="img-burgers/zrf.png" alt="" style="margin-left: 4%; margin-top: 15%;">
+
+            <div class="card">
+                
+                    <img src="img-burgers/henry.png" alt="" style="width: 150px;height: 150px; border-radius: 50%;left: 36%; position: relative; top: 10px;">
+
+                    <h3 style="font-family: Vazirmatn;font-size: 24px;font-weight: 600;line-height: 37.5px;text-align: center; color: rgba(254, 157, 38, 1);">هنری جان</h3>
+
+                    <img src="/img-icons/Component 7.png" alt="" style="position: absolute; margin-top: -15%; cursor: pointer;" >
+                    <img src="/img-icons/Component 6.png" alt="" style="position: absolute;margin-top: -15%;margin-left: 86%; cursor: pointer;">
+
+                    
+                    <p style="text-align: right;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، </p>
+                             
+            </div>
+
+        </div>
+
+        <div class="subcribe">
+
+            <h1 style="font-family: Vazirmatn;font-size: 40px;font-weight: 800;line-height: 63px; position: relative; top: 50px; left: 170px; color: #ffffff;" >عضو شدن در خبرنامه ما</h1>
+
+            <p id="l">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و</p>
+            <p id="l">با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و</p>
+            <p id="l">مجله در ستون و سطرآنچنان که لازم است،</p>
+
+            <img src="/img-icons/Group 36.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 6%;">
+
+            <img src="img-pizza/1-16481_pizza-png-photo-PhotoRoom 1.png" alt="" style="width: 650px;height: auto; top: -340px; left: 650px ;position: relative;">
+            
+        </div>
+
+        <div class="footer">
+            
+            <img src="/img-icons/Isolation_Mode2.png" alt="" style="position: absolute; margin-left: 47%; margin-top: 1%;">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی </p>
+            <p>نامفهوم از صنعت چاپ، و با استفاده از</p>
+            <p>طراحان گرافیک است.</p>
+            <img src="img-icons/Company Loco.png" alt="" style="position: absolute; margin-top: 6.5%;margin-left: 46.3%;">
+
+            <img src="/img-icons/Opening Restaurant.png" alt="" style="position: absolute; margin-left: 28%;margin-top: -1%;">
+
+            <img src="/img-icons/شنبه تا پنجشنبه ساعت 12 ظهر تا 12 شب جمعه ساعت 1 ظهر تا 1 شب.png" alt="" style="position: absolute;margin-left: 33%;margin-top: 1%;">
+
+            <img src="img-icons/User Link.png" alt="" style="position: absolute;margin-top: -1%;margin-left: 24%;">
+
+            <img src="img-icons/خانه منو ارتباط با ما.png" alt="" style="position: absolute;margin-top: 1%;margin-left: 25.7%">
+
+            <img src="/img-icons/Contact Us.png" alt="" style="position: absolute; margin-top: -1%;margin-left: 12%;">
+
+            <img src="/img-icons/لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است..png" alt="" style="position: absolute;margin-left: 12%;margin-top: 1%;">
+
+            <img src="img-icons/Group 1000001896.png" alt="" style="position: absolute;margin-top: 5%;margin-left: 11.5%;">
+
+
+        </div>
+    
+
+    </div>
+
+
+    <!-- ############################################################################# -->
+
+    <div class="home" style="display: none;" id="container3">
+
+        <div class="header" style="height: 767px;">
+
+            <div class="chap">
+
+                <p id="burg">Burgers</p>
+
+                <div class="rast">
+
+                    <img src="img-icons/Isolation_Mode.png" alt="" style="margin-top: 20%; margin-left: 10%;">
+                    <div class="a">ارتباط با ما</div>
+                    <div class="b">منو</div>
+                    <div class="c">خانه</div>
+                    <img src="img-icons/text.png" alt="" style="position: relative;margin-left: -170%;margin-top: 30%;">
+
+                </div>
+
+
+    
+            </div>
+
+            <div class="img">
+
+                <img src="img-icons/qq.png" alt="" style="position: absolute;margin-top: 6%;">
+                <img src="img-sokhari/pic Fried Chicken.png" alt="" style="width: 624px; height: auto;">
+                <img src="img-icons/Vector3.png" alt="" style="position: absolute; margin-top: 20%; margin-left: -4%;">
+
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+
+                <img src="img-icons/Off.png" alt="" style="position: absolute; margin-top: -60%; margin-left: -5%;">
+
+            </div>
+
+            
+        </div>
+
+        <div class="rectangle" >
+
+            <img src="/img-icons/text menu.png" alt="" style="position: absolute;margin-left: 26%;margin-top: 1%;">
+            <div class="esm">
+                <span class="be" style="color: #ffffff; background: rgba(247, 132, 40, 1);" onclick="showBurgers()">برگر</span>
+                <span class="pe" onclick="showPizzas()">پیتزا</span>
+                <span class="so" onclick="showSokhari()">سوخاری</span>
+                <span class="sa" onclick="showSand()">ساندویچ</span>
+                <span class="no" style="margin-left: 17%;" onclick="showDrinks()">نوشیدنی</span>
+                
+
+            </div>
+
+            <div class="shekl">
+
+                <div class="chb" style="color: black;" data-counter-id="1">
+                    <h1 style="color: rgba(254, 157, 38, 1);">دبل چیز برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/20230730171041_[fpdl.in]_fried-chicken-legs-isolated-white-background_79161-405_full (1)-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;"> 
+                    <img class="decrease" data-counter-id="7" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="7" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="7" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+                </div>
+                <div class="vab" data-counter-id="2">
+                    <h1 style="color: rgba(254, 157, 38, 1);">چیزبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/20230730201625_[fpdl.in]_fried-chicken-isolated-white-background_62856-5030_full-PhotoRoom 1.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="8" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="8" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="8" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rab" data-counter-id="3">
+                    <h1 style="color: rgba(254, 157, 38, 1);">همبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/20230730171031_[fpdl.in]_fried-chicken-with-french-fries-nuggets-meal_1339-40935_full-PhotoRoom.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="9" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="9" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="9" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="chp">
+                    <h1 style="color: rgba(254, 157, 38, 1);">ماشروم برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/chp.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="10" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="10" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="10" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="vap" data-counter-id="5">
+                    <h1 style="color: rgba(254, 157, 38, 1);">بیکن برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/vap.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="11" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="11" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="11" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rap" data-counter-id="6">
+                    <h1 style="color: rgba(254, 157, 38, 1);">سوخاری برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sokhari/rap.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="12" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="12" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="12" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="comments">
+
+            <img src="/img-icons/Text Comments.png" alt="" style="position: absolute; margin-left: 24%;margin-top: 1%;" >
+
+            <img src="img-burgers/zrf.png" alt="" style="margin-left: 4%; margin-top: 15%;">
+
+            <div class="card">
+                
+                    <img src="img-burgers/henry.png" alt="" style="width: 150px;height: 150px; border-radius: 50%;left: 36%; position: relative; top: 10px;">
+
+                    <h3 style="font-family: Vazirmatn;font-size: 24px;font-weight: 600;line-height: 37.5px;text-align: center; color: rgba(254, 157, 38, 1);">هنری جان</h3>
+
+                    <img src="/img-icons/Component 7.png" alt="" style="position: absolute; margin-top: -15%; cursor: pointer;" >
+                    <img src="/img-icons/Component 6.png" alt="" style="position: absolute;margin-top: -15%;margin-left: 86%; cursor: pointer;">
+
+                    
+                    <p style="text-align: right;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، </p>
+                             
+            </div>
+
+        </div>
+
+        <div class="subcribe">
+
+            <h1 style="font-family: Vazirmatn;font-size: 40px;font-weight: 800;line-height: 63px; position: relative; top: 50px; left: 170px; color: #ffffff;" >عضو شدن در خبرنامه ما</h1>
+
+            <p id="l">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و</p>
+            <p id="l">با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و</p>
+            <p id="l">مجله در ستون و سطرآنچنان که لازم است،</p>
+
+            <img src="/img-icons/Group 36.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 6%;">
+
+            <img src="img-sokhari/comment.png" alt="" style="width: 650px;height: auto; top: -340px; left: 650px ;position: relative;">
+            
+        </div>
+
+        <div class="footer">
+            
+            <img src="/img-icons/Isolation_Mode2.png" alt="" style="position: absolute; margin-left: 47%; margin-top: 1%;">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی </p>
+            <p>نامفهوم از صنعت چاپ، و با استفاده از</p>
+            <p>طراحان گرافیک است.</p>
+            <img src="img-icons/Company Loco.png" alt="" style="position: absolute; margin-top: 6.5%;margin-left: 46.3%;">
+
+            <img src="/img-icons/Opening Restaurant.png" alt="" style="position: absolute; margin-left: 28%;margin-top: -1%;">
+
+            <img src="/img-icons/شنبه تا پنجشنبه ساعت 12 ظهر تا 12 شب جمعه ساعت 1 ظهر تا 1 شب.png" alt="" style="position: absolute;margin-left: 33%;margin-top: 1%;">
+
+            <img src="img-icons/User Link.png" alt="" style="position: absolute;margin-top: -1%;margin-left: 24%;">
+
+            <img src="img-icons/خانه منو ارتباط با ما.png" alt="" style="position: absolute;margin-top: 1%;margin-left: 25.7%">
+
+            <img src="/img-icons/Contact Us.png" alt="" style="position: absolute; margin-top: -1%;margin-left: 12%;">
+
+            <img src="/img-icons/لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است..png" alt="" style="position: absolute;margin-left: 12%;margin-top: 1%;">
+
+            <img src="img-icons/Group 1000001896.png" alt="" style="position: absolute;margin-top: 5%;margin-left: 11.5%;">
+
+
+        </div>
+    
+
+    </div>
+
+    <!-- ############################################################################# -->
+
+
+    <div class="home" style="display: none;" id="container4">
+
+        <div class="header" style="height: 767px;">
+
+            <div class="chap">
+
+                <p id="burg">Burgers</p>
+
+                <div class="rast">
+
+                    <img src="img-icons/Isolation_Mode.png" alt="" style="margin-top: 20%; margin-left: 10%;">
+                    <div class="a">ارتباط با ما</div>
+                    <div class="b">منو</div>
+                    <div class="c">خانه</div>
+                    <img src="img-icons/text.png" alt="" style="position: relative;margin-left: -170%;margin-top: 30%;">
+
+                </div>
+
+    
+            </div>
+
+            <div class="img">
+
+                <img src="img-icons/qq.png" alt="" style="position: absolute;margin-top: 6%;">
+                <img src="img-sand/20230730171907_[fpdl.in]_two-homemade-sandwiches-with-toasted-bread-lettuce-cheese-meat-isolated_244366-392_full-PhotoRoom.png" alt="" style="width: 624px; height: auto;">
+                <img src="img-icons/Vector3.png" alt="" style="position: absolute; margin-top: 20%; margin-left: -4%;">
+
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+
+                <img src="img-icons/Off.png" alt="" style="position: absolute; margin-top: -60%; margin-left: -5%;">
+
+            </div>
+
+        </div>
+
+        <div class="rectangle" >
+
+            <img src="/img-icons/text menu.png" alt="" style="position: absolute;margin-left: 26%;margin-top: 1%;">
+            <div class="esm">
+                <span class="be" style="color: #ffffff; background: rgba(247, 132, 40, 1);" onclick="showBurgers()">برگر</span>
+                <span class="pe" onclick="showPizzas()">پیتزا</span>
+                <span class="so" onclick="showSokhari()">سوخاری</span>
+                <span class="sa" onclick="showSand()">ساندویچ</span>
+                <span class="no" style="margin-left: 17%;" onclick="showDrinks()">نوشیدنی</span>
+                
+
+            </div>
+
+            <div class="shekl">
+
+                <div class="chb" style="color: black;" data-counter-id="1">
+                    <h1 style="color: rgba(254, 157, 38, 1);">دبل چیز برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/chb.png" alt="" id="w" style="width: 200px; height: auto;"> 
+                    <img class="decrease" data-counter-id="41" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="41" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="41" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+                </div>
+                <div class="vab" data-counter-id="2">
+                    <h1 style="color: rgba(254, 157, 38, 1);">چیزبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/vab.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="13" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="13" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="13" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rab" data-counter-id="3">
+                    <h1 style="color: rgba(254, 157, 38, 1);">همبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/rab.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="14" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="14" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="14" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="chp">
+                    <h1 style="color: rgba(254, 157, 38, 1);">ماشروم برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/chp.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="15" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="15" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="15" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="vap" data-counter-id="5">
+                    <h1 style="color: rgba(254, 157, 38, 1);">بیکن برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/vap.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="16" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="16" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="16" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rap" data-counter-id="6">
+                    <h1 style="color: rgba(254, 157, 38, 1);">سوخاری برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-sand/rap.png" alt="" id="w" style="width: 200px; height: auto;">
+                    <img class="decrease" data-counter-id="17" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="17" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="17" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="comments">
+
+            <img src="/img-icons/Text Comments.png" alt="" style="position: absolute; margin-left: 24%;margin-top: 1%;" >
+
+            <img src="img-burgers/zrf.png" alt="" style="margin-left: 4%; margin-top: 15%;">
+
+            <div class="card">
+                
+                    <img src="img-burgers/henry.png" alt="" style="width: 150px;height: 150px; border-radius: 50%;left: 36%; position: relative; top: 10px;">
+
+                    <h3 style="font-family: Vazirmatn;font-size: 24px;font-weight: 600;line-height: 37.5px;text-align: center; color: rgba(254, 157, 38, 1);">هنری جان</h3>
+
+                    <img src="/img-icons/Component 7.png" alt="" style="position: absolute; margin-top: -15%; cursor: pointer;" >
+                    <img src="/img-icons/Component 6.png" alt="" style="position: absolute;margin-top: -15%;margin-left: 86%; cursor: pointer;">
+
+                    
+                    <p style="text-align: right;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، </p>
+                             
+            </div>
+
+        </div>
+
+        <div class="subcribe">
+
+            <h1 style="font-family: Vazirmatn;font-size: 40px;font-weight: 800;line-height: 63px; position: relative; top: 50px; left: 170px; color: #ffffff;" >عضو شدن در خبرنامه ما</h1>
+
+            <p id="l">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و</p>
+            <p id="l">با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و</p>
+            <p id="l">مجله در ستون و سطرآنچنان که لازم است،</p>
+
+            <img src="/img-icons/Group 36.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 6%;">
+
+            <img src="img-sand/big.png" alt="" style="width: 650px;height: auto; top: -340px; left: 650px ;position: relative;">
+            
+        </div>
+
+        <div class="footer">
+            
+            <img src="/img-icons/Isolation_Mode2.png" alt="" style="position: absolute; margin-left: 47%; margin-top: 1%;">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی </p>
+            <p>نامفهوم از صنعت چاپ، و با استفاده از</p>
+            <p>طراحان گرافیک است.</p>
+            <img src="img-icons/Company Loco.png" alt="" style="position: absolute; margin-top: 6.5%;margin-left: 46.3%;">
+
+            <img src="/img-icons/Opening Restaurant.png" alt="" style="position: absolute; margin-left: 28%;margin-top: -1%;">
+
+            <img src="/img-icons/شنبه تا پنجشنبه ساعت 12 ظهر تا 12 شب جمعه ساعت 1 ظهر تا 1 شب.png" alt="" style="position: absolute;margin-left: 33%;margin-top: 1%;">
+
+            <img src="img-icons/User Link.png" alt="" style="position: absolute;margin-top: -1%;margin-left: 24%;">
+
+            <img src="img-icons/خانه منو ارتباط با ما.png" alt="" style="position: absolute;margin-top: 1%;margin-left: 25.7%">
+
+            <img src="/img-icons/Contact Us.png" alt="" style="position: absolute; margin-top: -1%;margin-left: 12%;">
+
+            <img src="/img-icons/لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است..png" alt="" style="position: absolute;margin-left: 12%;margin-top: 1%;">
+
+            <img src="img-icons/Group 1000001896.png" alt="" style="position: absolute;margin-top: 5%;margin-left: 11.5%;">
+
+
+        </div>
+    
+
+    </div>
+
+
+    <!-- ############################################################################# -->
+
+    <div class="home" style="display: none;" id="container5">
+
+        <div class="header" style="height: 767px;">
+
+            <div class="chap">
+
+                <p id="burg">Burgers</p>
+
+                <div class="rast">
+
+                    <img src="img-icons/Isolation_Mode.png" alt="" style="margin-top: 20%; margin-left: 10%;">
+                    <div class="a">ارتباط با ما</div>
+                    <div class="b">منو</div>
+                    <div class="c">خانه</div>
+                    <img src="img-icons/text.png" alt="" style="position: relative;margin-left: -170%;margin-top: 30%;">
+
+                </div>
+
+
+    
+            </div>
+
+            <div class="img">
+
+                <img src="img-icons/qq.png" alt="" style="position: absolute;margin-top: 6%;">
+                <img src="img-drinks/pic Beverages.png" alt="" style="width: 224px; height: auto;">
+                <img src="img-icons/Vector3.png" alt="" style="position: absolute; margin-top: 20%; margin-left: -4%;">
+
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+
+                <img src="img-icons/Off.png" alt="" style="position: absolute; margin-top: -60%; margin-left: -5%;">
+
+            </div>
+            
+        </div>
+
+        <div class="rectangle" >
+
+            <img src="/img-icons/text menu.png" alt="" style="position: absolute;margin-left: 26%;margin-top: 1%;">
+            <div class="esm">
+                <span class="be" style="color: #ffffff; background: rgba(247, 132, 40, 1);" onclick="showBurgers()">برگر</span>
+                <span class="pe" onclick="showPizzas()">پیتزا</span>
+                <span class="so" onclick="showSokhari()">سوخاری</span>
+                <span class="sa" onclick="showSand()">ساندویچ</span>
+                <span class="no" style="margin-left: 17%;" onclick="showDrinks()">نوشیدنی</span>
+                
+
+            </div>
+
+            <div class="shekl">
+
+                <div class="chb" style="color: black;" data-counter-id="1">
+                    <h1 style="color: rgba(254, 157, 38, 1);">دبل چیز برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/chb.png" alt="" id="w" style="width: 200px; height: 260px"> 
+                    <img class="decrease" data-counter-id="1" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="1" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="1" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+                </div>
+                <div class="vab" data-counter-id="2">
+                    <h1 style="color: rgba(254, 157, 38, 1);">چیزبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/vab.png" alt="" id="w" style="width: 200px; height: 260px">
+                    <img class="decrease" data-counter-id="18" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="18" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="18" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rab" data-counter-id="3">
+                    <h1 style="color: rgba(254, 157, 38, 1);">همبرگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/rab.png" alt="" id="w" style="width: 200px; height: 260px">
+                    <img class="decrease" data-counter-id="19" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="19" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="19" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="chp">
+                    <h1 style="color: rgba(254, 157, 38, 1);">ماشروم برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/chp.png" alt="" id="w" style="width: 200px; height: 260px">
+                    <img class="decrease" data-counter-id="20" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="20" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="20" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="vap" data-counter-id="5">
+                    <h1 style="color: rgba(254, 157, 38, 1);">بیکن برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/vap.png" alt="" id="w" style="width: 200px; height: 260px">
+                    <img class="decrease" data-counter-id="21" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="21" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="21" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+                <div class="rap" data-counter-id="6">
+                    <h1 style="color: rgba(254, 157, 38, 1);">سوخاری برگر</h1>
+                    <p>گرم گوشت چرخ کرده،</p>
+                    <p>پنیرگودا، پیاز، کاهو، گوجه،</p>
+                    <p>خیارشور، سس مخصوص.</p>
+                    <img src="img-drinks/rap.png" alt="" id="w" style="width: 200px; height: 260px">
+                    <img class="decrease" data-counter-id="22" src="img-icons/Group 1000001897.png" style="position: absolute; margin-right: 80%;cursor: pointer;">
+                    <p class="counter" data-counter-id="22" style="margin-right: 95%; margin-top: 2%; position: absolute;">0</p>
+                    <img class="increase" data-counter-id="22" src="img-icons/shopping.png" style="position: absolute; margin-right: 63%;cursor: pointer;">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="comments">
+
+            <img src="/img-icons/Text Comments.png" alt="" style="position: absolute; margin-left: 24%;margin-top: 1%;" >
+
+            <img src="img-burgers/zrf.png" alt="" style="margin-left: 4%; margin-top: 15%;">
+
+            <div class="card">
+                
+                    <img src="img-burgers/henry.png" alt="" style="width: 150px;height: 150px; border-radius: 50%;left: 36%; position: relative; top: 10px;">
+
+                    <h3 style="font-family: Vazirmatn;font-size: 24px;font-weight: 600;line-height: 37.5px;text-align: center; color: rgba(254, 157, 38, 1);">هنری جان</h3>
+
+                    <img src="/img-icons/Component 7.png" alt="" style="position: absolute; margin-top: -15%; cursor: pointer;" >
+                    <img src="/img-icons/Component 6.png" alt="" style="position: absolute;margin-top: -15%;margin-left: 86%; cursor: pointer;">
+
+                    
+                    <p style="text-align: right;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، </p>
+                             
+            </div>
+
+        </div>
+
+        <div class="subcribe">
+
+            <h1 style="font-family: Vazirmatn;font-size: 40px;font-weight: 800;line-height: 63px; position: relative; top: 50px; left: 170px; color: #ffffff;" >عضو شدن در خبرنامه ما</h1>
+
+            <p id="l">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و</p>
+            <p id="l">با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و</p>
+            <p id="l">مجله در ستون و سطرآنچنان که لازم است،</p>
+
+            <img src="img-icons/Group 36.png" alt="" style="position: absolute; margin-top: 4%;margin-left: 6%;">
+
+            <img src="img-drinks/big.png" alt="" style="width: 450px;height: 500px; top: -340px; left: 850px ;position: relative;">
+            
+        </div>
+
+        <div class="footer">
+            
+            <img src="img-icons/Isolation_Mode2.png" alt="" style="position: absolute; margin-left: 47%; margin-top: 1%;">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی </p>
+            <p>نامفهوم از صنعت چاپ، و با استفاده از</p>
+            <p>طراحان گرافیک است.</p>
+            <img src="img-icons/Company Loco.png" alt="" style="position: absolute; margin-top: 6.5%;margin-left: 46.3%;">
+
+            <img src="img-icons/Opening Restaurant.png" alt="" style="position: absolute; margin-left: 28%;margin-top: -1%;">
+
+            <img src="img-icons/شنبه تا پنجشنبه ساعت 12 ظهر تا 12 شب جمعه ساعت 1 ظهر تا 1 شب.png" alt="" style="position: absolute;margin-left: 33%;margin-top: 1%;">
+
+            <img src="img-icons/User Link.png" alt="" style="position: absolute;margin-top: -1%;margin-left: 24%;">
+
+            <img src="img-icons/خانه منو ارتباط با ما.png" alt="" style="position: absolute;margin-top: 1%;margin-left: 25.7%">
+
+            <img src="img-icons/Contact Us.png" alt="" style="position: absolute; margin-top: -1%;margin-left: 12%;">
+
+            <img src="img-icons/لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است..png" alt="" style="position: absolute;margin-left: 12%;margin-top: 1%;">
+
+            <img src="img-icons/Group 1000001896.png" alt="" style="position: absolute;margin-top: 5%;margin-left: 11.5%;">
+
+
+        </div>
+    
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

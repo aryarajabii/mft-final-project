@@ -1,0 +1,353 @@
+
+.home{
+
+    box-sizing: border-box;
+
+}
+
+.img{
+    
+    position: relative;
+    top: -620px;
+    left: 251.38px;
+
+}
+
+.ellipse1{
+
+    position: relative;
+    width: 557px;
+    height: 566px;
+    top: -595px;
+    left: 28px;
+    border-radius: 50%;
+    background: linear-gradient(110.06deg, rgba(0, 0, 0, 0.05) 11.94%, rgba(0, 0, 0, 0) 124.98%);
+
+}
+
+.ellipse2{
+
+    position: relative;
+    width: 701px;
+    height: 701px;
+    top: -1240px;
+    left: -35px;
+    border-radius: 50%;
+    background: linear-gradient(108.26deg, rgba(0, 0, 0, 0.06) 10.7%, rgba(0, 0, 0, 0) 87.12%);
+
+}
+
+.chap{
+
+    background: rgba(254, 157, 38, 1);
+    width: 616px;
+    height: 741px;
+    left: -1px;
+    border-radius: 0 0 60px 0;
+
+}
+
+#sh{
+
+    position: relative;
+    font-family: Vazirmatn FD;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 115px;
+    height: 31px;
+    top: -570px;
+    left: 418px;
+    color:#FFFFFF;
+
+}
+
+.rast{
+
+    position: relative;
+    top: -380px;
+    width: 185px;
+    height: 187px;
+    left: 1176px;
+    border-radius: 0px 0px 0px 50px;
+    background: rgba(254, 157, 38, 1);
+
+}
+
+#burg{
+
+    position: relative;
+    color:rgba(0, 0, 0, 0.04);
+    font-family: Vazirmatn;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 234px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 570px;
+    height: 234px;
+    top: 240px;
+    left: -190px;
+    transform: rotate(-90deg);
+
+}
+
+
+.rectangle{
+    /* margin-left: 40%; */
+    background-color: #FFECD2;
+    width: 1441px;
+    height: 908px;
+    top: 769px;
+    left: -1px;
+
+}
+
+.comments{
+
+    width: 1273.62px;
+    height: 521px;
+    top: 1716px;
+    left: 70px;
+
+}
+
+.subcribe{
+
+    width: 1292px;
+    height: 570px;
+    top: 2264px;
+    left: 73px;
+
+}
+
+.footer{
+
+    /* margin-left: 40%; */
+    background: #FFECD2;
+    width: 1441px;
+    height: 321.97px;
+    top: 2852.51px;
+    left: -1px;
+
+}
+
+#sef{
+
+    background-color:rgba(254, 157, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 87px;
+    height: 32px;
+    margin-top: -109%;
+    margin-left: 56%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+.psef{
+
+    position: relative;
+    width: 160px;
+    height: 80px;
+    margin-left: 42.3%;
+    margin-top: -3.4%;
+    border-radius: 10px;  
+    background: rgba(254, 157, 38, 0.08);
+    cursor: pointer;
+
+}
+
+.a{
+
+    width: 100px;
+    height: 29.55px;
+    top: -67.3%;
+    left: -550px;
+
+}
+
+.b{
+
+    width: 71.22px;
+    height: 30px;
+    top: -84%;
+    left: -400px;
+
+}
+
+.c{
+
+    width: 61.79px;
+    height: 30px;
+    top: -100%;
+    left: -300px;
+
+}
+
+.a , .b , .c{
+
+    position: relative;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(224, 66, 24, 1);
+
+}
+
+.me{
+
+    position: relative;
+    top: 30px;
+    margin-left: 50%;
+    font-family: Vazirmatn;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(224, 66, 24, 1);
+
+}
+
+.be , .pe , .so , .sa , .no{
+
+    position: relative;
+    font-family: Vazirmatn;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    top: 140px;
+    margin-left: 4%;
+    color: rgba(224, 66, 24, 1);
+    background-color: rgba(247, 153, 37, 0.3);
+    padding: 15px 40px;
+    border-radius: 10px;
+    
+}
+
+.chb , .vab , .rab , .chp , .vap , .rap{
+
+    width: 369.47px;
+    height: 212.76px;
+    left: 69px;
+    border-radius: 40px;
+    margin-top: 10%;
+    margin-right: 5%;
+    direction: rtl;
+    background: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+
+}
+
+.shekl{
+    margin-top: 5%;
+
+}
+
+.shekl p{
+    position: absolute;
+    margin-right: 60%;
+    margin-top: -3%;
+}
+
+.shekl h1{
+    position: absolute;
+    margin-right: 59%;
+
+}
+.chb , .vab , .rab{
+    top: 30px;
+}
+
+#w{
+    position: absolute;
+    left: 250px;
+    top: 40px;
+}
+
+.shekl h1{
+    position: relative;
+    left: 40%;
+}
+
+.shekl p{
+    position: relative;
+    left: 90px;
+}
+
+.card{
+    
+    position: absolute;
+    width: 600px;
+    height: 370px;
+    top: 1850px;
+    left: 1345px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 8%;
+    margin-left: -32.3%;
+    padding: 25px;
+
+}
+
+.subcribe{
+
+    position: relative;
+    width: 1295px;
+    height: 370px;
+    border-radius: 50px;
+    background: rgba(254, 157, 38, 1);
+    top: 170px;
+
+}
+
+#l{
+    
+    position: relative;
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 1);
+    left: -61.5%;
+    top: 10%;
+
+}
+
+.footer{
+    margin-top: 13%;
+}
+
+.footer p{
+    position: relative;
+    margin-right: 8%;
+    top: 50%;
+    direction: rtl;
+}
+
+.esm span{
+    position: relative;
+    margin-top: 200px;
+}
