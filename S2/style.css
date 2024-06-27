@@ -1,0 +1,153 @@
+.container{
+
+    margin-top: 2vh;
+    width: 1440px;
+    height: 1750px;
+    margin-left: 3%;
+
+}
+
+.containerup{
+
+    position: absolute;
+    width: 1440px;
+    height: 1417px;
+    background: rgba(255, 236, 210, 1);
+
+}
+
+.containerdown{
+
+    position: absolute;
+    width: 1440px;
+    height: 322px;
+    margin-left: 2.89%;
+    top: 1450px;
+    background: rgba(255, 236, 210, 1);
+
+}
+
+
+.logo{
+
+    position: relative;
+    width: 185px;
+    height: 187px;
+    left: 1175px;
+    border-radius: 0px 0px 0px 50px;
+    background: rgba(254, 157, 38, 1);
+
+}
+
+.se{
+
+    position: relative;
+    margin-top: -14%;
+    left: 68px;
+    right: 100px;
+    cursor: pointer;
+
+}
+
+.chap1{
+
+    position: relative;
+    width: 464px;
+    height: 358px;
+    top: 220px;
+    left: 72px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.chap2{
+
+    position: relative;
+    width: 464px;
+    height: 224px;
+    top: 250px;
+    left: 72px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.chap3{
+
+    position: relative;
+    width: 464px;
+    height: 344px;
+    top: 280px;
+    left: 73px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.marhale{
+
+    position: relative;
+    width: 432.94px;
+    height: 72px;
+    top: 305px;
+    left: 89px;
+    border-radius: 15px;
+    background: rgba(254, 157, 38, 1);
+
+}
+
+.marhale:hover{
+
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+
+.rast1{
+
+    position: relative;
+    margin-left: 87%;
+    margin-top: -77.6%;
+    width: 762px;
+    height: 120px;
+    top: 345px;
+    right: 701px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+#del:hover{
+
+    opacity: 0.8;
+   
+}
+
+p{
+
+    position: absolute;
+    color: rgba(254, 157, 38, 1);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 31.25px;
+    margin-top: 7%;
+    
+}
+
+.chap1 p{
+
+    color: rgba(224, 66, 24, 1);
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: center;
+
+}
+
+.chap1 img:hover{
+
+    opacity: 0.7;
+
+}
